@@ -1,2 +1,2 @@
-# No me había fijado que hice todo en la main :c
-# De los errores se aprende
+# No me había fijado que hice todo en la main :b
+# De los errores se aprende.
