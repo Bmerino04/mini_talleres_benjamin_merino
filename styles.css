@@ -1,0 +1,234 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+header img {
+    width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.top-bar {
+    background-color: #0056b3; /* Azul oscuro */
+    padding-top: 1px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.top-bar p{
+    font-weight: bolder;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.featured {
+    padding: 20px;
+    text-align: center;
+}
+
+.featured h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles for search bar */
+.search-bar {
+    display: flex;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+
+.user-options a img {
+    vertical-align: middle;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.user-options a {
+    margin-left: 20px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.user-options a i {
+    margin-right: 5px;
+}
+
+.user-options a:hover {
+    color: #0056b3;
+}
+
+.sub-barra-nav{
+    background-color: #0056b3; /* Azul oscuro */
+    padding: 1px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.sub-barra-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-barra-nav ul li {
+    margin: 0 15px;
+}
+
+.sub-barra-nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.location-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #ccc;
+}
+
+.left-section {
+    margin-left: 1%;
+    display: flex;
+    gap: 30px;
+}
+
+.warehouse-info,
+.delivery-info {
+    text-align: left;
+}
+
+.warehouse-info p,
+.delivery-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Right-aligned links */
+.right-section {
+    margin-right: 1%;
+    text-align: right;
+}
+
+.right-section a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.right-section a:hover {
+    color: #333;
+}
+
+.filters, .products {
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+}
+
+.filters {
+    width: 25%;
+    background-color: #f0f0f0;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.products {
+    width: 75%;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
